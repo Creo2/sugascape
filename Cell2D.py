@@ -56,6 +56,7 @@ class Cell2DViewer:
 
     def __init__(self, viewee):
         self.viewee = viewee
+        #self.agents = viewee.agents
         self.im = None
         self.hlines = None
         self.vlines = None
